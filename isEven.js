@@ -1,4 +1,4 @@
-class Integral {
+class DiscreteIntegral {
   constructor(exp, intervals) {
     this.exponent = exp;
     this.intervals = intervals;
@@ -26,7 +26,7 @@ class Integral {
 }
 
 function isEven(n) {
-  integral = new Integral(n, 100);
+  integral = new DiscreteIntegral(n, 100);
   let left = integral.calculate(-1, 0).toPrecision(5);
   let right = integral.calculate(0, 1).toPrecision(5);
 
