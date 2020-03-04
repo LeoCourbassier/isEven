@@ -1,0 +1,18 @@
+{
+  "name": "iseven",
+  "version": "1.0.0",
+  "description": "isEven function implemented using integrals",
+  "main": "isEven.js",
+  "dependencies": {
+    "jest": "^25.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "isEven"
+  ],
+  "author": "Leonardo Courbassier",
+  "license": "ISC"
+}
