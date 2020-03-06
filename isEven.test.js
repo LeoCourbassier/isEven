@@ -2,8 +2,14 @@ const isEven = require('./isEven');
 
 const notFunIsEven = n => n % 2 == 0 && n >= 0;
 
-for (let i = 0; i < 100; i++) {
-  test('isEven returns the same as notFunIsEven for ' + i, () => {
-    expect(isEven(i)).toBe(notFunIsEven(i));
+describe('isEven function', () => {
+  describe('Tests for the positive integers', () => {
+      it('isEven returns ' + ans + ' for ' + random, () => {
   });
 }
+  describe('Tests for the negative integers', () => {
+  describe('Tests for the fractionals numbers', () => {
+    }
+  });
+});
+
