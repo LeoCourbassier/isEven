@@ -26,6 +26,8 @@ class DiscreteIntegral {
 }
 
 function isEven(n) {
+  if (n < 0) return false;
+
   integral = new DiscreteIntegral(n, 100);
   let left = integral.calculate(-1, 0).toPrecision(5);
   let right = integral.calculate(0, 1).toPrecision(5);
