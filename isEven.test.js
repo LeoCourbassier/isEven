@@ -24,6 +24,12 @@ describe('isEven function', () => {
   });
 
   describe('Tests for the fractionals numbers', () => {
+    for (let i = 0; i < 100; i++) {
+      let random = Math.random();
+      let ans = notFunIsEven(random);
+      it('isEven returns ' + ans + ' for ' + random, () => {
+        expect(isEven(random)).toBe(ans);
+      });
     }
   });
 });
